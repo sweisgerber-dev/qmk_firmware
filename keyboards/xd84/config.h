@@ -52,7 +52,7 @@
 // #define BACKLIGHT_BREATHING
 
 #define RGB_DI_PIN C7
-#define RGBLED_NUM 7
+#define RGBLED_NUM 48
 #define RGBLIGHT_ANIMATIONS
 // #ifdef RGB_DI_PIN
 //   #define RGBLIGHT_HUE_STEP 8
