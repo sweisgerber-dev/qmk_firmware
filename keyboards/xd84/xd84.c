@@ -19,6 +19,7 @@ void keyboard_pre_init_kb(void) {
   setPinOutput(B6);
 
   keyboard_pre_init_user();
+  set_unicode_input_mode(UC_LNX);
 }
 
 void led_set_kb(uint8_t usb_led) {
